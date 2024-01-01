@@ -1,0 +1,50 @@
+.progressbar{
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: beige;
+    transition: width 0.5s ease-in-out;
+
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.progresspercentage{
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-shadow: -1px 0 #555, 0 1px #555, 1px0 #555, 0 -1px #555;
+
+}
+
+.btn{
+    display: block;
+    margin: 5rem auto;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    background-color: purple;
+    transition: box shadow 0.5s;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+
+    /* -webkit-box-shadow: insert 100px 0 0 0 #7c54d1 ; */
+    box-shadow: insert 100px 0 0 0 #7c54d1 ;
+}
